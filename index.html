@@ -3,73 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Code+ Cursos</title>
+    <style>
+        h1{
+            color: white;
+            font-size: 45px;
+        }    
+        h2{
+            font-size: 25px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header style="text-align: center; background-color: #123456;">
         <h1>    
             Aprenda mais com a Code+ Cursos!
         </h1>
         <h2>    
             Ensino a distância para te tornar um programador de sucesso! 
         </h2>
-        <p>
+        <p style="color:yellow; font-size: 30px;">
             Matricule-se até dia 08 de setembro e ganhe um desconto de <strong>10%!</strong>
         </p>
     </header>
 
-    <article> 
-        <strong>Cursos disponíveis:</strong>
-        <br/>
-        <br/>
-        <br/>
-        <div>
-            <a><img src="img/java-grande.png" alt="Java" width="350"></a><br>
-            <br/>
-            <strong>Java</strong>
-            <p>Curso completo de Java de 150 horas para quem deseja<br> aprender esta linguagem e para quem deseja diversificar<br>  os seus conhecimentos. 
-            Há mais de 3 bilhões de aparelhos<br>  rodando Java hoje, um mercado com alta procura por<br>  profissionais qualificados!</p>
-            <br/>
-            <br/>
-        </div>
-        <div>
-            <a><img src="img/js-grande.png" alt="Java Script" width="350"></a><br>
-            <br/>
-            <strong>JavaScript</strong>
-            <p>Curso de 100 horas com os conceitos básicos para<br> desenvolvimento em JavaScript, permitindo ao desenvolvedor<br> entender a estrutura do JS 
-            e desenvolver pequenos programas<br> que interagem com os elementos de uma página web.</p>
-            <br/>
-            <br/>
-        </div>
-        <div>
-            <a><img src="img/python-grande.png" alt="Python" width="350"></a><br>
-            <br/>
-            <strong>Python</strong>
-            <p>Curso de 120 horas com os conceitos básicos para<br> desenvolvimento em JPython, 
-            que é uma das linguagens<br> mais utilizadas no mundo e requisito para se trabalhar<br> com Ciência de Dados e Inteligência Artificial</p>
-            <br/>
-            <br/>
-        </div>
-        <div>
-            <a><img src="img/php-grande.png" alt="PHP" width="350"></a><br>
-            <br/>
-            <strong>PHP</strong>
-            <p>Curso de 80 horas para você conseguir desenvolver com<br> uma das linguagens mais populares no mercado que<br> evoluiu muito em todos os requisitos nos últimos anos! </p>
-            <br/>
-            <br/>
-        </div>
-        <div>
-            <a><img src="img/html-grande.png" alt="HTML" width="350"></a><br>
-            <br/>
-            <strong>HTML</strong>
-            <p>Curso de 200 horas sobre HTML, a linguagem de<br> marcação básica para a Web, qualquer webdesigner<br> deve ter um bom embasamento e conhecimento desta<br> linguagem,
-                 matricule-se já e aumente seu conhecimento sobre HTML!</p>
-            <br/>
-            <br/>
-        </div>
+    <article id="titulo"> 
+        <p>Cursos disponíveis</p>
     </article>
+
+    <article class="cursoultvagas">
+        <br/>
+        <a><img src="img/java-grande.png" alt="Java" width="500"></a><br>
+        <br/>
+        <p class="titulocurso">Java (Últimas vagas)</p>
+        <p class="descricaocurso">Curso completo de Java de 150 horas para quem deseja aprender esta linguagem e para quem deseja diversificar os seus conhecimentos. 
+        Há mais de 3 bilhões de aparelhos rodando Java hoje, um mercado com alta procura por profissionais qualificados!</p>
+        <br/>
+        <br/>
+    </article>
+    <br/>
+
+    <article class="curso">
+        <br/>
+        <a><img src="img/js-grande.png" alt="Java Script" width="500"></a><br>
+        <br/>
+        <p class="titulocurso">JavaScript</p>
+        <p class="descricaocurso">Curso de 100 horas com os conceitos básicos para desenvolvimento em JavaScript, permitindo ao desenvolvedor entender a estrutura do JS 
+        e desenvolver pequenos programas que interagem com os elementos de uma página web.</p>
+        <br/>
+        <br/>
+    </article>
+    <br/>
+
+    <article class="curso">
+        <br/>
+        <a><img src="img/python-grande.png" alt="Python" width="500"></a><br>
+        <br/>
+        <p class="titulocurso">Python</p>
+        <p class="descricaocurso">Curso de 120 horas com os conceitos básicos para desenvolvimento em JPython, 
+        que é uma das linguagens mais utilizadas no mundo e requisito para se trabalhar com Ciência de Dados e Inteligência Artificial</p>
+        <br/>
+        <br/>
+    </article>
+    <br/>
+
+    <article class="curso">
+        <br/>
+        <a><img src="img/php-grande.png" alt="PHP" width="500"></a><br>
+        <br/>
+        <p class="titulocurso">PHP</p>
+        <p class="descricaocurso">Curso de 80 horas para você conseguir desenvolver com uma das linguagens mais populares no mercado que evoluiu muito em todos os requisitos nos últimos anos! </p>
+        <br/>
+        <br/>
+    </article>
+    <br/>
+
+    <article class="curso">
+        <br/>
+        <a><img src="img/html-grande.png" alt="HTML" width="500"></a><br>
+        <br/>
+        <p class="titulocurso">HTML</p>
+        <p class="descricaocurso">Curso de 200 horas sobre HTML, a linguagem de marcação básica para a Web, qualquer webdesigner deve ter um bom embasamento e conhecimento desta linguagem,
+        matricule-se já e aumente seu conhecimento sobre HTML!</p>
+        <br/>
+        <br/>
+    </article> 
     <footer>
-        <p>Entre em contato conosco pelo e-mail <strong>contato@codemais.com.br</strong> ou pelo nosso número <strong>11 3030-4040.</strong></p>
+        <p>Todos os direitos reservados<br/>
+        Em caso de dúvidas entre em contato conosco pelo e-mail <strong>contato@codemais.com.br</strong> ou pelo nosso número <strong>11 3030-4040.</strong></p>
     </footer> 
 </body>
 </html>

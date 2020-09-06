@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: #ADE2FF;
+}
+
+article#titulo p{
+    font-size: 30px;
+    text-align: center;
+}
+
+article.curso{
+    text-align: center;
+    background-color: #89CAED;
+}
+
+article.curso p.descricaocurso{
+    font-size: 20px;
+
+}
+
+article.curso p.titulocurso{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+article.cursoultvagas{
+    text-align: center;
+    background-color: #699db9;
+}
+
+article.cursoultvagas p.descricaocurso{
+    font-size: 22px;
+
+}
+
+article.cursoultvagas p.titulocurso{
+    font-size: 28px;
+    font-weight: bold;
+    color: #aa1117;
+}
+
+footer p{
+    background-color: #123456;
+    color: white;
+    text-align: center;
+}
+
+footer p strong{
+    font-weight: bold;
+}

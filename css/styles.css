@@ -1,51 +1,138 @@
+/* Desktop */
+@media only screen and (min-width: 601px) {
+    body{
+        background-color: #ADE2FF;
+        text-align: center;
+    }
 
+    img {
+        width: 100%;
+        height: auto;
+    }
+    article#titulo p{
+        font-size: 30px;
+        text-align: center;
+        display: block;
+    }
 
-body{
-    background-color: #ADE2FF;
+    article#laboratorios{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    article#laboratorios a{
+        display: inline-block;
+        width: 350px;
+        height: 300px; 
+        margin: 15px;
+    }
+  
+    article.curso{
+        text-align: center;
+        background-color: #89CAED;
+        display: inline-block;
+        width: 300px;
+        height: 300px; 
+        vertical-align: bottom;
+        margin: 15px;
+        padding: 5px;
+    }
+    article.curso p.descricaocurso{
+        font-size: 18px;
+    }
+    article.curso p.titulocurso{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    article.cursoultvagas{
+        text-align: center;
+        background-color: #699db9;
+        display: inline-block;
+        width: 450px;
+        height: 300px;
+        vertical-align: bottom;
+        margin: 15px;
+        padding: 5px;
+    }
+    article.cursoultvagas p.descricaocurso{
+        font-size: 18px;
+    }
+    article.cursoultvagas p.titulocurso{
+        font-size: 28px;
+        font-weight: bold;
+        color: #aa1117;
+    }
+    footer p{
+        background-color: #123456;
+        color: white;
+        text-align: center;
+    }
+    footer p strong{
+        font-weight: bold;
+    }
 }
 
-article#titulo p{
-    font-size: 30px;
-    text-align: center;
-}
+/* Celular */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #123456;
+        text-align: center;
+        padding: 10px;
+    }
 
-article.curso{
-    text-align: center;
-    background-color: #89CAED;
-}
+    img {
+        width: 90%;
+        height: auto;
+    }
+    article#titulo p{
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        color: white;
+    }
+    article.curso{
+        text-align: center;
+        background-color: #89CAED;
+        display: inline-block;
+        width: 90%;
+        height: 400px; 
+        vertical-align: bottom;
+        margin: 15px;
+        padding: 5px;
+    }
+    article.curso p.descricaocurso{
+        font-size: 22px;
+    }
+    article.curso p.titulocurso{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    article.cursoultvagas{
+        text-align: center;
+        background-color: #699db9;
+        display: inline-block;
+        width: 90%;
+        height: 400px;
+        vertical-align: bottom;
+        margin: 15px;
+        padding: 5px;
+    }
+    article.cursoultvagas p.descricaocurso{
+        font-size: 24px;
+    }
+    article.cursoultvagas p.titulocurso{
+        font-size: 28px;
+        font-weight: bold;
+        color: #aa1117;
+    }
+    footer p{
+        background-color: #123456;
+        color: white;
+        text-align: center;
+    }
+    footer p strong{
+        font-weight: bold;
+    }
 
-article.curso p.descricaocurso{
-    font-size: 20px;
 
-}
-
-article.curso p.titulocurso{
-    font-size: 22px;
-    font-weight: bold;
-}
-
-article.cursoultvagas{
-    text-align: center;
-    background-color: #699db9;
-}
-
-article.cursoultvagas p.descricaocurso{
-    font-size: 22px;
-
-}
-
-article.cursoultvagas p.titulocurso{
-    font-size: 28px;
-    font-weight: bold;
-    color: #aa1117;
-}
-
-footer p{
-    background-color: #123456;
-    color: white;
-    text-align: center;
-}
-
-footer p strong{
-    font-weight: bold;
 }

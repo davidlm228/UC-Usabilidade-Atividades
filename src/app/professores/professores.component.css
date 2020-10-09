@@ -1,0 +1,13 @@
+div p.descprof{
+  color: #6c757d;
+  margin-top: 20px;
+}
+
+.fundoprof {
+  background-color: #e85f3b;
+}
+
+h3, h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
